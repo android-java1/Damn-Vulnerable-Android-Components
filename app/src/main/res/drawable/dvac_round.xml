@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AndroidManifest.xml points android:icon and android:roundIcon at
+     @drawable/dvac_round, which was missing from the repository, so resource
+     linking failed and nothing could compile. Aliases it to the dvac.png that
+     is present instead of touching the manifest. -->
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/dvac" />
